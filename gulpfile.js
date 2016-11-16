@@ -14,7 +14,7 @@ gulp.task('scripts', function() {
 		.pipe(uglify())
 		.pipe(gulp.dest('app/assets/javascript'));
 });
-
+ 
 gulp.task('stylus', function() {
 	return gulp.src('app/assets/stylus/*.styl')
 		.pipe(stylus({
